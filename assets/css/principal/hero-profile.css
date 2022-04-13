@@ -1,0 +1,59 @@
+.profile__linkItems {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile__link {
+    color: var(--font-color);
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+
+.link__arrow {
+    background: url(../../images/arrow.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+ 
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 25%;
+    margin-left: 4px;
+}
+
+@media screen and (min-width: 0) {
+    .profile__title {
+        font-size: 1.25rem;
+        min-width: 300px;
+    }
+    
+    .profile__text {
+        font-size: 0.90rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .profile__title {
+        font-size: 1.75rem;
+        min-width: 300px;
+    }
+
+    .profile__text {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .profile__title {
+        font-size: 3rem;
+        min-width: 300px;
+    }
+    .profile__text {
+        font-size: 1.25rem;
+    }
+}
+
