@@ -2,11 +2,15 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c1200010b5.js" crossorigin="anonymous"></script>
+    
     <title>Portfólio Izac</title>
-    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/principal/principal.css">
@@ -14,12 +18,15 @@
     <link rel="stylesheet" href="./assets/css/principal/principal-about.css">
     <link rel="stylesheet" href="./assets/css/principal/hero-image.css">
     <link rel="stylesheet" href="./assets/css/principal/hero-profile.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills_cards.css">
+    
     
 
 </head>
 
 <body>
-    <header class="header">
+    <header class="header container" >
         <img class="header__logo" src="./assets/images/logo-altenativa.svg" alt="">
         
         <nav class="header__navigation">
@@ -34,31 +41,31 @@
         </nav>
     </header>
     <main class="principal" id="about">
-        <section class="principal__hero">
+        <section class="principal__hero  container">
             <section class="hero__profile">
-                <h1 class="profile__title">
+                <h1 class="profile__title title--one margin">
                     Olá, meu nome é Izac Silva
                     e crio soluções para web.
                 </h1>
-                <p class="profile__text">
+                <p class="profile__text margin text">
                     Estou me desenvolvendo a cada dia em estudos de desenvolvimento
-                    para web com foco em soluções simples e funcionais e novas tecnologias
-                    e atualmente estou participando no projeto Oracle ONE na Alura.
+                    para web com foco em soluções simples, funcionais e com novas tecnologias.
+                    Atualmente estou participando no projeto Oracle ONE na Alura.
                 </p>
-                <div class="profile__linkItems">
-                    <a href="#" class="profile__link">Github<div class="link__arrow"></div></a>
-                    <a href="#" class="profile__link">Linkedin<div class="link__arrow"></div></a>
-                    <a href="#" class="profile__link">Instagram<div class="link__arrow"></div></a>
-                    <a href="#" class="profile__link">Currículo<div class="link__arrow"></div></a>
+                <div class="profile__linkItems margin">
+                    <a href="#" class="profile__link">Github<i class="fa-solid fa-arrow-up"></i></i></a>
+                    <a href="#" class="profile__link">Linkedin<i class="fa-solid fa-arrow-up"></i></a>
+                    <a href="#" class="profile__link">Instagram<i class="fa-solid fa-arrow-up"></i></a>
+                    <a href="#" class="profile__link">Currículo<i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </section>
             <section class="hero__image">
                 <img class="image__profile" src="./assets/images/profile-image.png" alt="Fotografia do autor do portfólio">
             </section>
         </section>
-        <section class="principal__about" >
-            <h2 class="about__title">Sobre mim</h2>
-            <p class="about__text">
+        <section class="principal__about  container margin" >
+            <h2 class="about__title title--two margin">Sobre mim</h2>
+            <p class="about__text margin text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque velit velit, volutpat semper dignissim dictum,
                 imperdiet ut lacus. Quisque gravida ex a mattis pretium.
@@ -66,7 +73,7 @@
 
 
             </p>
-            <p>
+            <p class="margin text">
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit. Pellentesque velit velit,
                 volutpat semper dignissim dictum, imperdiet ut lacus.
@@ -78,27 +85,42 @@
             <img src="./assets/images/assinatura-alternativa.png" alt="" class="about__image">
         </section>
     </main>
-    <section class="skills" id="skills">
-        <h1 class="skills__title"></h1>
-        <div class="skills__cards">
-            <div class="skills__card">HTML</div>
-            <div class="skills__card">JAVASCRIPT</div>
-            <div class="skills__card">CSS</div>
-            <div class="skills__card">SCSS</div>
-            <div class="skills__card">GIT-GITHUB</div>
+    <section class="skills container" id="skills">
+        <h3 class="skills__title title--two margin title--center">Skills</h3>
+        <div class="skills__cards margin">
+            <div class="skills__card margin">
+                <i class="fa-brands fa-html5"></i>
+                <p class="card__title title--three">Html</p>
+            </div>
+            <div class="skills__card margin">
+                <i class="fa-brands fa-js-square"></i>
+                <p class="card__title title--three">Javascript</p>
+            </div>
+            <div class="skills__card margin">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p class="card__title title--three">Css</p>
+            </div>
+            <div class="skills__card margin" >
+                <i class="fa-brands fa-git-square"></i>
+                <p class="card__title title--three">Git / GitHub</p>
+            </div>
+            <div class="skills__card margin">
+                <i class="fa-brands fa-python"></i>
+                <p class="card__title title--three">Python</p>
+            </div>
         </div>
     </section>
-    <section class="hobbies" id="hobbies">
-        <h1 class="Hobbies__title"></h1>
+    <section class="hobbies container" id="hobbies">
+        <h2 class="Hobbies__title title--two">Hobbies</h2>
         <div class="Hobbies__cards">
-            <div class="Hobbies__card">Andar de skate</div>
+            <div class="Hobbies__card">Andar de bike</div>
             <div class="Hobbies__card">Tirar fotos</div>
-            <div class="Hobbies__card">Ouvir música</div>
-            <div class="Hobbies__card">Assistir séries</div>
+            <div class="Hobbies__card">Desenhar</div>
+            <div class="Hobbies__card">Assistir animes</div>
             <div class="Hobbies__card">Cozinhar</div>
         </div>
     </section>
-    <section class="scholls" id="scholls">
+    <section class="scholls container" id="scholls">
         <h1 class="scholls__title"></h1>
         <div class="scholls__cards">
             <div class="scholls__card">
@@ -118,7 +140,7 @@
             </div>
         </div>
     </section>
-    <section class="projects" id="projects">
+    <section class="projects container" id="projects">
         <h2 class="projects__title">Experiência profissional</h2>
         <article class="projects__article">
             <section class="article__content">
@@ -159,7 +181,7 @@
             </section>
         </article>
     </section>
-    <section class="contact" >
+    <section class="contact container" >
         <img src="" alt="" class="contact__image">
         <form action="" class="contact__form">
             <h3 class="form__title">Contato</h3>
@@ -179,9 +201,10 @@
             <input type="submit" value="Enviar Mensagem" class="form_btn">
         </form>
     </section>
-    <footer class="footer">
+    <footer class="footer container">
         <p class="footer__autor">Desenvolvido por <a href="#" class="__autor__link">Izac Silva</a> 2022</p>
     </footer>
+    
 </body>
 
 </html>

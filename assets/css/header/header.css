@@ -2,14 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-      
+    margin:  1.75rem 0;
+}
+
+.header__logo {
+    width: 124px;
 }
 
 .header__menu {
     display: flex;
-    margin: 0;
-    padding: 0;
-    
 }
 
 .menu__items {
@@ -24,19 +25,24 @@
     .links__btn {
         display: none;
     }
-    .header {
-        margin: 1rem 0;
+
+    .menu__link {
+        font-size: 14px;
     }
-    
+
 }
 
 @media screen and (min-width: 768px) {
-    .header {
-        padding: 1.75rem;
+    .contact {
+        font-weight: bold;
+    }
+
+    .header__logo {
+        width: 134px;
     }
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 1024px) {
     .links__btn {
         display: block;
     }
