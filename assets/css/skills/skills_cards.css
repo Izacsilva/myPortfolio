@@ -7,14 +7,8 @@
 }
 
 .skills__card {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    height: 118px;
-    justify-content: flex-end;
     margin: 1%;
-    padding: 1rem;
-    width: calc(50% - 2%)
+    width: calc(50% - 4%)
 }
 
 .fa-brands {
@@ -28,7 +22,17 @@
 }
 
 @media screen and (max-width: 767px) {
+    .skills__card {
+        width: calc(50% - 1%)
 
+    }
+    
+    .skills__card:nth-child(2n+1) {
+        margin-left: 0;
+    }
+    .skills__card:nth-child(2n) {
+        margin-right: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {

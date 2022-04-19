@@ -1,0 +1,35 @@
+.scholls__title {
+    text-align: center;
+}
+
+.scholls__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.scholls__card {
+    width: 33.33%;
+    margin: 1rem 1%;
+    padding: 1 rem 1rem 4rem;
+}
+
+.scholls__card:first-child {
+    margin-left: 0;
+}
+.scholls__card:last-child {
+    margin-right: 0;
+}
+
+.card__imageBox {
+    background: white;
+    width: 100%;
+    padding: 2rem;
+}
+
+.imageBox__img {
+
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}

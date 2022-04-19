@@ -1,0 +1,28 @@
+.hobbies__cards {
+    display: grid;
+    grid-gap: 1rem 2%;
+    
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hobbies__title {
+    text-align: center;
+}
+
+.hobbies__cards .fa-solid {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 0) {
+    .hobbies__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies__cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

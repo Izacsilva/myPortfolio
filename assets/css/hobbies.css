@@ -1,0 +1,13 @@
+.hobbies {
+    display: grid;
+    grid-template-areas:
+    "Hobbies__title"
+    "Hobbies__cards";
+    grid-template-columns: auto;
+    grid-template-rows: 24px auto;
+    
+    grid-gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+

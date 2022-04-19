@@ -64,6 +64,23 @@ input {
 
 }
 
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 118px;
+    justify-content: flex-end;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.card:hover {
+    background: #f7faff;
+    box-shadow: 4px 4px 4px #3d8ff90f;
+    transform: scale(1.04)
+}
+
 @media screen and (min-width: 768px) {
      .title--one {
         font-size: 2rem;
@@ -72,7 +89,6 @@ input {
     }
 
 }
-
 
 @media screen and (min-width: 1024px) {
     .container {
