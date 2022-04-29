@@ -1,0 +1,52 @@
+.projects__title {
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+
+.article__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__image {
+    width: 100%;
+}
+
+.content__information {
+    margin: 1rem 0;
+}
+
+.information__title, .information__description {
+    margin-bottom: 0.7rem;
+}
+
+.content__information .information__description {
+    font-size: 0.9rem;
+} 
+
+.content__information .information__link {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.information__link:hover {
+    text-decoration: none;
+}
+
+.information__link.btn {
+    padding: 1rem;
+
+}
+
+.information__link.btn--stroke {
+    color: var(--primary-color);
+    outline: 1px solid var(--primary-color);
+    outline-offset: -1px;
+    
+}
+
+.information__link.btn--solid {
+    background: var(--primary-color);
+    color: white;
+    margin-left: .3rem;
+}

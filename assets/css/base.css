@@ -12,16 +12,16 @@ body {
     background: var(--bg-color);
 }
 
-a {
+/* a {
     text-decoration: none;
-}
+} */
 
 a:hover {
     text-decoration: underline;
 }
 
 img {
-    max-width: 270px;
+    /* max-width: 270px; */
 }
 
 input {
