@@ -1,0 +1,8 @@
+.contact {
+    background: var(--bgBlue-color);
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+
+}
