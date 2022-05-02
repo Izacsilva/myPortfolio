@@ -33,20 +33,24 @@
     text-decoration: none;
 }
 
-.information__link.btn {
+.btn {
     padding: 1rem;
 
 }
 
-.information__link.btn--stroke {
+.btn--stroke {
     color: var(--primary-color);
     outline: 1px solid var(--primary-color);
     outline-offset: -1px;
     
 }
 
-.information__link.btn--solid {
+.btn--solid {
     background: var(--primary-color);
     color: white;
+    
+}
+
+.content__information .btn--solid {
     margin-left: .3rem;
 }

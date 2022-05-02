@@ -45,7 +45,7 @@
                 <li class="menu__items links__btn"><a class="menu__link" href="#hobbies">Hobbies</a></li>
                 <li class="menu__items links__btn"><a class="menu__link" href="#scholls">Formação</a></li>
                 <li class="menu__items links__btn"><a class="menu__link" href="#projects">Projetos</a></li>
-                <li class="menu__items contact"><a class="menu__link"
+                <li class="menu__items mailContact"><a class="menu__link"
                         href="mailto:izaclislanio@gmail.com"><strong>contato@gmail.com</strong></a></li>
             </ul>
         </nav>
@@ -229,16 +229,18 @@
                 Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
                 </p>
             </header>
-            <label for="form__name">Nome</label>
-            <input type="text" name="" id="form__name" class="form__name" placeholder="Nome">
-            <label for="form__email">E-mail</label>
-            <input type="email" name="" id="form__email" class="form__email" placeholder="email" required>
-            <label for="form__topic">Assunto</label>
-            <input type="text" name="" id="form__topic" class="form__topic" placeholder="Assunto">
-            <label for="form__mensage">Mensagem</label>
-            <textarea name="" id="form__mensage" cols="30" rows="10" class="form__mensage"
+            <div class="form__box name">
+                <label for="form__name" class="label label__name">Nome</label>
+                <input type="text" name="" id="form__name" class="form__name input" placeholder="Nome">
+            </div>
+            <label for="form__email" class="label label__email">E-mail</label>
+            <input type="email" name="" id="form__email" class="form__email input" placeholder="email" required>
+            <label for="form__topic" class="label label__topic">Assunto</label>
+            <input type="text" name="" id="form__topic" class="form__topic input" placeholder="Assunto">
+            <label for="form__mensagem" class="label label__mensagem">Mensagem</label>
+            <textarea name="" id="form__mensagem" cols="30" rows="10" class="form__mensagem input textarea"
                 placeholder="Mensagem"></textarea>
-            <input type="submit" value="Enviar Mensagem" class="form_btn">
+            <input type="submit" value="Enviar Mensagem" class="form__btn btn btn--solid">
         </form>
     </section>
     <footer class="footer container">
