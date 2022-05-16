@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./assets/css/projects/projects-content.css">
     <link rel="stylesheet" href="/assets/css/contats.css">
     <link rel="stylesheet" href="./assets/css/contats/contats-content.css">
+    <link rel="stylesheet" href="./assets/css/contats/style-base-form.css">
 
 
 
@@ -227,18 +228,25 @@
                 Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
                 </p>
             </header>
-            <div class="form__box name">
-                <label for="form__name" class="label label__name">Nome</label>
-                <input type="text" name="" id="form__name" class="form__name input" placeholder="Nome">
+            <div class="wrapper_input">
+                <label for="input__name" class="input-label label">Nome</label>
+                <input type="text" name="input__name" id="input__name" class="input__name input" placeholder="Nome">
             </div>
-            <label for="form__email" class="label label__email">E-mail</label>
-            <input type="email" name="" id="form__email" class="form__email input" placeholder="email" required>
-            <label for="form__topic" class="label label__topic">Assunto</label>
-            <input type="text" name="" id="form__topic" class="form__topic input" placeholder="Assunto">
-            <label for="form__mensagem" class="label label__mensagem">Mensagem</label>
-            <textarea name="" id="form__mensagem" cols="30" rows="10" class="form__mensagem input textarea"
-                placeholder="Mensagem"></textarea>
-            <input type="submit" value="Enviar Mensagem" class="form__btn btn btn--solid">
+            <div class="wrapper_input">
+                <label for="input__email" class="label input-label">E-mail</label>
+                <input type="email" name="input__email" id="input__email" class="input__email input" placeholder="email" required>
+            </div>
+            <div class="wrapper_input">
+                <label for="input__topic" class="label input-label">Assunto</label>
+                <input type="text" name="" id="input__topic" class="input__topic input" placeholder="Assunto">
+            </div>
+            <div class="wrapper_textarea">
+                <label for="textarea" class="label textarea-label">Mensagem</label>
+                <textarea name="textarea" id="textarea" class="input textarea"
+                placeholder="Mensagem">
+                </textarea>
+                <input type="submit" value="Enviar Mensagem" class="input__btn btn btn--solid">
+            </div>
         </form>
     </section>
     <footer class="footer container">
